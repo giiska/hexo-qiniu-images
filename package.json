@@ -1,0 +1,27 @@
+{
+  "name": "hexo-qiniu-images",
+  "version": "1.0.0",
+  "description": "Qiniu hexo tag plugin for server images of post",
+  "main": "index.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bammoo/hexo-qiniu-images.git"
+  },
+  "keywords": [
+    "Hexo",
+    "qiniu",
+    "image"
+  ],
+  "author": "bammoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bammoo/hexo-qiniu-images/issues"
+  }
+}
