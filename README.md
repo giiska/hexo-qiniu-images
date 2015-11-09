@@ -46,3 +46,17 @@ images_root: http://7d9j0e.com1.z0.glb.clouddn.com/
 ```
  <img src="http://7d9j0e.com1.z0.glb.clouddn.com/images/test.jpg" class="class1 class2">
  ```
+
+
+## Sublime Text Snippet
+
+可在添加这个 Snippet 到 Sublime Text 的 Packages/User/ 中
+
+ ```
+ <snippet>
+    <content><![CDATA[{% qnimg $1 $2 %}]]></content>
+    <tabTrigger>qnimg</tabTrigger>
+    <scope>text.html.markdown</scope>
+    <description>no description</description>
+</snippet>
+ ```
