@@ -35,6 +35,14 @@ images_root: http://7d9j0e.com1.z0.glb.clouddn.com/
 {% qnimg imageName [class1,class2] [JSONImageAttibutes] %}
 ```
 
+4. 添加 host
+为了在本地可以看到图片，需要在 /etc/hosts 中设置：
+
+```
+127.0.0.1  7d9j0e.com1.z0.glb.clouddn.com
+```
+
+
 ### 示例：
 
 ```
