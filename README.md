@@ -4,13 +4,13 @@ This is a [hexo](https://github.com/tommy351/hexo) tag plugin which you can conf
 
 ## 安装
 
-1. npm install
+* npm install
 
 ```
 npm install hexo-qiniu-images --save
 ```
 
-2. 修改 ``_config.yml``.
+* 修改 ``_config.yml``.
 
 插件区添加
 ```
@@ -25,9 +25,17 @@ url: http://bammoo.github.io
 images_root: http://7d9j0e.com1.z0.glb.clouddn.com/
 ```
 
-3. 添加目录
+* 添加目录
 
 在 source 目录下，添加命名为 ``images`` 的目录，所有的 post 插图都放这里
+
+* 添加 host
+为了在本地可以看到图片，需要在 /etc/hosts 中设置：
+
+```
+127.0.0.1  7d9j0e.com1.z0.glb.clouddn.com
+```
+
 
 ## 用法
 
@@ -35,12 +43,6 @@ images_root: http://7d9j0e.com1.z0.glb.clouddn.com/
 {% qnimg imageName [class1,class2] [JSONImageAttibutes] %}
 ```
 
-4. 添加 host
-为了在本地可以看到图片，需要在 /etc/hosts 中设置：
-
-```
-127.0.0.1  7d9j0e.com1.z0.glb.clouddn.com
-```
 
 
 ### 示例：
@@ -52,11 +54,13 @@ images_root: http://7d9j0e.com1.z0.glb.clouddn.com/
 生成结果
 
 ```
- <img src="http://7d9j0e.com1.z0.glb.clouddn.com/images/test.jpg" class="class1 class2">
- ```
+ <img src="http://7d9j0e.com1.z0.glb.clouddn.com/images/test.jpg" class="class1 class2"> 
+```
 
 
-## Sublime Text Snippet
+## Editor Snippets
+
+### Sublime Text
 
 可在添加这个 Snippet 到 Sublime Text 的 Packages/User/ 中
 
